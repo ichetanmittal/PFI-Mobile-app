@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		D6C8AD972C51F4FD008FE09C /* pfi_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8AD962C51F4FD008FE09C /* pfi_testApp.swift */; };
-		D6C8AD992C51F4FD008FE09C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8AD982C51F4FD008FE09C /* ContentView.swift */; };
+		D6C8AD992C51F4FD008FE09C /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8AD982C51F4FD008FE09C /* RegistrationView.swift */; };
 		D6C8AD9B2C51F4FE008FE09C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C8AD9A2C51F4FE008FE09C /* Assets.xcassets */; };
 		D6C8AD9E2C51F4FE008FE09C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C8AD9D2C51F4FE008FE09C /* Preview Assets.xcassets */; };
+		D6C8ADA52C51FAD9008FE09C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8ADA42C51FAD9008FE09C /* LoginView.swift */; };
+		D6C8ADA72C520EB9008FE09C /* RoleSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8ADA62C520EB9008FE09C /* RoleSelectionView.swift */; };
+		D6C8ADA92C522772008FE09C /* BorrowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8ADA82C522772008FE09C /* BorrowerView.swift */; };
+		D6C8ADAB2C522EA9008FE09C /* LenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8ADAA2C522EA9008FE09C /* LenderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D6C8AD932C51F4FD008FE09C /* pfi_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pfi_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C8AD962C51F4FD008FE09C /* pfi_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pfi_testApp.swift; sourceTree = "<group>"; };
-		D6C8AD982C51F4FD008FE09C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6C8AD982C51F4FD008FE09C /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		D6C8AD9A2C51F4FE008FE09C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C8AD9D2C51F4FE008FE09C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6C8ADA42C51FAD9008FE09C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D6C8ADA62C520EB9008FE09C /* RoleSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleSelectionView.swift; sourceTree = "<group>"; };
+		D6C8ADA82C522772008FE09C /* BorrowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorrowerView.swift; sourceTree = "<group>"; };
+		D6C8ADAA2C522EA9008FE09C /* LenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				D6C8AD962C51F4FD008FE09C /* pfi_testApp.swift */,
-				D6C8AD982C51F4FD008FE09C /* ContentView.swift */,
+				D6C8AD982C51F4FD008FE09C /* RegistrationView.swift */,
+				D6C8ADA82C522772008FE09C /* BorrowerView.swift */,
+				D6C8ADAA2C522EA9008FE09C /* LenderView.swift */,
+				D6C8ADA42C51FAD9008FE09C /* LoginView.swift */,
+				D6C8ADA62C520EB9008FE09C /* RoleSelectionView.swift */,
 				D6C8AD9A2C51F4FE008FE09C /* Assets.xcassets */,
 				D6C8AD9C2C51F4FE008FE09C /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6C8AD992C51F4FD008FE09C /* ContentView.swift in Sources */,
+				D6C8ADA52C51FAD9008FE09C /* LoginView.swift in Sources */,
+				D6C8ADA92C522772008FE09C /* BorrowerView.swift in Sources */,
+				D6C8ADAB2C522EA9008FE09C /* LenderView.swift in Sources */,
+				D6C8ADA72C520EB9008FE09C /* RoleSelectionView.swift in Sources */,
+				D6C8AD992C51F4FD008FE09C /* RegistrationView.swift in Sources */,
 				D6C8AD972C51F4FD008FE09C /* pfi_testApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
